@@ -1,0 +1,176 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+/*estilização do carrossel*/
+#carouselExample {
+    position: relative;
+}
+
+#h1-img2 {
+    color: white;
+}
+
+#h1-img3 {
+    color: black;
+}
+
+.title h1 {
+    position: absolute;
+    margin-top: 40px;
+    font-size: 4em;
+    margin-left: 130px;
+    color: hsl(120, 100%, 18%);
+    font-weight: bold;
+}
+
+.title button {
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: hsl(120, 100%, 18%);
+    margin-top: 450px;
+    margin-left: 200px;
+    transition: background-color 0.3s;
+    box-shadow: 10px 15px 15px hsl(120, 100%, 0%);
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-transform: capitalize;
+    color: hsl(120, 100%, 18%);
+}
+
+.title button:hover {
+    background-color: hsl(120, 52%, 42%);
+    cursor: pointer;
+}
+/*fim da estilização do carrossel*/
+
+/*estilização da logo*/
+.navbar-brand img {
+    width: 150px;
+    height: 150px;
+    margin-left: 80px;
+    position: sticky;
+    top: 0;
+}
+/*fim da estilização da logo*/
+
+/*estilização da nav*/
+.nav-link text-dark {
+    background-color: hsl(120, 100%, 18%);
+}
+/* fim estilização da nav*/
+/*estilização da main*/
+main h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#main_content {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 100px;
+    row-gap: 100px;
+}
+
+    #main_content h4 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #main_content p {
+        font-size: 20px;
+    }
+    /*estilização dos fa icones*/
+    .fa-box-open {
+    font-size: 70px;
+    color: hsl(120, 100%, 18%);
+    }
+
+    .fa-stopwatch {
+    font-size: 70px;
+    color: hsl(120, 100%, 18%);
+    }
+
+    .fa-user-lock {
+    font-size: 70px;
+    color: hsl(120, 100%, 18%);
+    }
+
+    .fa-eye {
+    font-size: 70px;
+    color: hsl(120, 100%, 18%);
+    }
+    /*fim da estilização dos fa icones*/
+    /*fim estilização da main*/
+
+   /*estilização da main2*/
+   #main2_content::after {
+    content: '';
+    display: block;
+    width: 500px;
+    height: 10px;
+    background-color: hsl(120, 100%, 18%);
+    margin-bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    border-radius: 10px;
+    }
+   #main2_content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin: 50px;
+    font-size: 25px;
+    column-gap: 100px;
+    margin-top: 100px;
+    
+   }
+   #botao-conta{
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(120, 100%, 18%);
+    transition: background-color 0.3s;
+    padding: 10px;
+    align-items: center;
+    justify-content:right;
+    font-size: 15px;
+    text-transform: uppercase;
+   }
+   #botao-conta:hover{
+    background-color: hsl(120, 52%, 42%);
+    cursor: pointer;
+   }
+    /*fim estilização da main2*/
+.border-top {
+    background-color: hsl(0, 0%, 10%);
+}
+
+

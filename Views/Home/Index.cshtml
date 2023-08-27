@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "PEAR";
+}
+
+<div class="text-center">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="title">
+                    <h1>Sistemas antigos geram imprevistos<br>e gastos desnecessários.</h1>
+                    <a asp-area="Identity" asp-page="/Account/Register">
+                        <button><B>Adquira Já</B></button>
+                    </a>
+                </div>
+                <img src="img/pretoebranco.jpg" class="d-block w-100" alt="ambiente empresarial com duas pessoas conversando e usando notebook.">
+            </div>
+            <div class="carousel-item">
+                <div class="title">
+                    <h1 id="h1-img2">Potencialize seu futuro <br>com a tecnologia de ponta <br>que nos impulsiona.</h1>
+                    <a href="login.html" target="_blank">
+                        <button><B>Adquira Já</B></button>
+                    </a>
+                </div>
+                <img src="img/data-base3.jpg" class="d-block w-100" alt="ambiente empresarial que possui uma sala com big data e uma mulher em frente a sala mexendo em um tablet">
+            </div>
+            <div class="carousel-item">
+                <div class="title">
+                    <h1 id="h1-img3">Nosso time dedicado está<br>pronto para auxiliá-los 24hrs.</h1>
+                    <a href="login.html" target="_blank">
+                        <button><B>Adquira Já</B></button>
+                    </a>
+                </div>
+                <img src="img/pc-pessoas1.jpg" class="d-block w-100" alt="ambiente empresarial com varias pessoas trabalhando em frente ao computador">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <main>
+        <h3>Benefícios</h3>
+        <div id="main_content">
+            <div>
+                <i class="fa-solid fa-box-open"></i>
+                <h4>Reduzir os custos de<br> armazenamento</h4>
+                <p>Satisfaça suas necessidades de<br>desempenho ao mesmo tempo em que<br> gerencia seus custos de armazenamento.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-stopwatch"></i>
+                <h4>Gerencie o ciclo de vida<br> dos dados</h4>
+                <p>Use uma abordagem baseada em políticas<br> para gerenciar o ciclo de vida de seus<br> dados.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-user-lock"></i>
+                <h4>Segurança e controle de<br> dados</h4>
+                <p>Armazenamento seguro de dados e<br> verificação de conformidade para maior <br>controle dos dados.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-eye"></i>
+                <h4>Insights práticos a partir <br>dos dados</h4>
+                <p>Executar consultas SQL e acionar código<br> personalizado a partir de seus dados.</p>
+            </div>
+        </div>
+    </main>
+    <main>
+        <div id="main2_content">
+            <div>
+                <h4><B>Pronto para começar?</B></h4>
+                <p>Crie uma conta na Pear ou faça login para começar a usar o Pear Cloud.</p>
+            </div>
+            <div>
+                <a asp-area ="Identity" asp-page="/Account/Register" >
+                    <button id="botao-conta"><B>Criar conta</B><i class="fa-solid fa-arrow-right"></i></button>
+                </a>
+            </div>
+        </div>
+    </main>
+</div>
